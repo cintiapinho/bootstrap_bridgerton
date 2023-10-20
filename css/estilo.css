@@ -9,3 +9,22 @@
 .aumentar_letra{
    font-size: 2rem;
 }
+
+
+
+.fundocintia{
+    background-color: aqua;
+}
+
+.corfontecintia{
+    color: crimson;
+}
+
+.justificado{
+    text-align: justify;    
+}
+
+#sobre, #galeria{
+    margin-top: 2%;
+    margin-bottom: 2%;    
+}
