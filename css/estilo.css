@@ -10,14 +10,21 @@
    font-size: 2rem;
 }
 
-
-
-.fundocintia{
-    background-color: aqua;
+fontecintianav{
+    font-size: 2rem;
 }
 
-.corfontecintia{
-    color: crimson;
+.fundocintia{
+    background-color: #008B8B;
+    padding: 1%;
+}
+
+/* .imgmenor{
+    width: 20%;
+} */
+
+.fontemaior{
+    font-size:2rem;
 }
 
 .justificado{
@@ -27,4 +34,14 @@
 #sobre, #galeria{
     margin-top: 2%;
     margin-bottom: 2%;    
+}
+
+.espaco{
+    width: 99.8%;
+   
+} 
+
+.espacoabaixo{
+    margin-bottom: 2%;
+
 }

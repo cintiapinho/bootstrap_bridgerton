@@ -6,46 +6,38 @@
     <link rel="stylesheet" href="css\bootstrap.css">
     <link rel="stylesheet" href="css\bootstrap-grid.css">
     <link rel="stylesheet" href="css\estilo.css">    
-    <title>Bootstrap demo</title>
+    <title>Bridgerton</title>
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg fundocintia">
-            <div class="container-fluid">
-              <a class="corfontecintia" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
+      <nav class="navbar navbar-expand-lg fundocintia ">
+        <div class="container-fluid">
+
+          <a class="navbar-brand fontecintianav" href="#"><img class="imgmenor" src="img/logo/logo.png" alt="" srcset=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Opções
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#sobre">Sobre</a></li>
+                  <li><a class="dropdown-item" href="#galeria">Galeria</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-        </nav>
+              </li>            
+            </ul>            
+          </div>
+        </div>
+      </nav>
     </header>   
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -93,12 +85,10 @@
           <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="container">
+    <main class="container">
       <section id="sobre">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center">Sobre</h1>
-          </div>                             
+        <div class="row col-md-12">          
+          <h1 class="text-center">Sobre</h1>                                       
         </div>
         <div class="row">         
           <div class="col-md-6">
@@ -154,35 +144,86 @@
         </div> 
       </section>
       <section id="galeria">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center">Imagens Primeira Temporada</h1>
-          </div>                             
+        <div class="row col-md-12">          
+            <h1 class="text-center">Imagens Primeira Temporada</h1>                                      
         </div>
 
-        <div class="container text-center">
+        <div class="text-center">
           <div class="row">
-            <div class="col-md-4"><img src="img/galeria/galer1.jpg" alt=""></div>
-            <div class="col-md-4"><img src="img/galeria/galer2.jpg" alt="" srcset=""></div>
-            <div class="col-md-4"><img src="img/galeria/galer3.jpg" alt="" srcset=""></div>
+            <div class="col-md-4 espacoabaixo"><img class="espaco" src="img/galeria/galer1.jpg" alt=""></div>
+            <div class="col-md-4 espacoabaixo"><img class="espaco"  src="img/galeria/galer2.jpg" alt="" srcset=""></div>
+            <div class="col-md-4 espacoabaixo"><img class="espaco"  src="img/galeria/galer3.jpg" alt="" srcset=""></div>
           </div>
-          <div class="row">
-            <div class="col-md-4"><img src="img/galeria/galer4.jpg" alt="" srcset=""></div>
-            <div class="col-md-4"><img src="img/galeria/galer6.jpg" alt="" srcset=""></div>
-            <div class="col-md-4"><img src="img/galeria/galer6.png" alt="" srcset=""></div>
+          <div class="row espacoabaixo">
+            <div class="col-md-4 espacoabaixo"><img class="espaco" src="img/galeria/galer4.jpg" alt="" srcset=""></div>
+            <div class="col-md-4 espacoabaixo"><img class="espaco" src="img/galeria/galer6.jpg" alt="" srcset=""></div>
+            <div class="col-md-4 espacoabaixo"><img class="espaco" src="img/galeria/galer6.png" alt="" srcset=""></div>
           </div>          
         </div>
         
       </section>
-      <section>
-        
+      <section  id="temporadas">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">Temporadas</h1>
+          </div>                             
+        </div>
+        <div class="text-center">
+          <div class="row">            
+              <div class="card col-md-6">
+                <img src="img/temporadas/primeira.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Texto sobre Primeira Temporada</p>
+                </div>
+              </div>          
+              
+              <div class="card col-md-6">
+                <img src="img/temporadas/segunda.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Texto sobre Segunda Temporada</p>
+                </div>
+              </div>                       
+          </div>                  
+        </div>        
       </section>
       <section>
-        fff
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">Falar sobre audiência nos diferentes paises</h1>
+            
+          </div>                             
+        </div>
+        <div class="col-md-12">
+         
+
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar overflow-visible text-dark" style="width: 10%"><span class="fontemaior">Japão</span></div>
+          </div>
+          <br>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 25%"></div>
+          </div>
+          <br>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 50%"></div>
+          </div>
+          <br>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 75%"></div>
+          </div>
+          <br>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 100%"></div>
+          </div>
+          <br>
+        </div>
       </section>
-    </div>
-    <footer>
-    fff
+    </main>
+    <footer class="fundocintia">
+      <div class="text-center">
+        <p>Colocar autor e redes sociais</p>
+      </div>
+    
     </footer>     
    
     <script src="js\bootstrap.bundle.js"></script>
